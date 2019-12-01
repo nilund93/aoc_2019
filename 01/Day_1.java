@@ -23,12 +23,12 @@ public class Day_1 {
 	public static int calculateFuel(int f) {
 		
 		int fuelcost = f / 3 -2;
-		if(fuelcost > 0) {
-			return fuelcost + calculateFuel(fuelcost);
-		}
-		else {
+		if(fuelcost <= 0) {
 			return 0;
 		}
+		
+		return fuelcost + calculateFuel(fuelcost);
+		
 	}
 
 	public void calculate()
