@@ -69,7 +69,7 @@ public class Dec_02{
 		return 0;
 	}
 	public static void parseList() {
-		String fn = "C:\Users\nicla\Git\aoc_2019\02/da2_input.txt";
+		String fn = "C:\Users\nicla\Git\aoc_2019\02/day2_input.txt";
 		l = getInfoFromFile(fn);
 	}
 	public static void main(String[] args) {
